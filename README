@@ -1,0 +1,41 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1170
+
+Abc-Menu installs some more menu-Items for easier access and 
+remembering.
+
+vim is a very powerfull editor with tons of functions and even 
+more documentation. I always found new functions and i was looking
+for a way to search them quickly. index.txt was my friend so far :)
+
+Sometime I have my little daughter laying in my arm and I have only 
+one hand for writing. In this case, some functions of vim are very hard
+to reach.
+
+This file helps me in both cases.
+I made an alphabetical menu for some of the functions for the normal mode.
+The reason for strict alphabetical order  is to make using the menu
+like typing the commands and help to remember to type the command next time 
+or to be able to use another vim on another maching without this special menu.
+
+There are some special sub-menus
+ i = shift
+ k = control
+ l = alt
+I think ijkl are keys that everyone knows. You won't find them in the Abc-Menu.
+
+Example for using the menu:
+If you want to reach all commands in Normal mode with Uppercase characters
+type following keys:
+  alt      invoke menu  (or alt-n together)
+    n      normal-Mode commands
+     i    shift-commands 
+
+Look at the bottom of the screen. Every command has a little tip. I took most
+tips from index.txt.
+
+tested with gvim 6.2, windows XP
+Knoppix 3.7: the tips are missing,  Hotkey only in left textarea possible
+ 
+Screenshots:
+http://jochen-behrens.de/vim/vim-menu-g.png
+http://jochen-behrens.de/vim/vim-menu-n.png
